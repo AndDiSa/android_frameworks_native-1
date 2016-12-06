@@ -474,6 +474,7 @@ void SurfaceFlinger::init() {
         }
     }
 
+
     // Initialize the H/W composer object.  There may or may not be an
     // actual hardware composer underneath.
     mHwc = new HWComposer(this,
