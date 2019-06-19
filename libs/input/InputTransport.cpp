@@ -118,8 +118,6 @@ void InputMessage::getSanitizedCopy(InputMessage* msg) const {
             msg->body.key.deviceId = body.key.deviceId;
             // int32_t source
             msg->body.key.source = body.key.source;
-            // int32_t displayId
-            msg->body.key.displayId = body.key.displayId;
             // int32_t action
             msg->body.key.action = body.key.action;
             // int32_t flags
@@ -145,8 +143,6 @@ void InputMessage::getSanitizedCopy(InputMessage* msg) const {
             msg->body.motion.deviceId = body.motion.deviceId;
             // int32_t source
             msg->body.motion.source = body.motion.source;
-            // int32_t displayId
-            msg->body.motion.displayId = body.motion.displayId;
             // int32_t action
             msg->body.motion.action = body.motion.action;
             // int32_t actionButton
